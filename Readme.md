@@ -1,17 +1,16 @@
 node -v
 npm -v
 
-cd timestamp/
+cd webserver-files
+sudo chmod 777 server.js
 
-update databese credentials from server.js file
+<!-- update databese credentials from server.js file -->
 
-npm install
-npm start
-
+sudo npm install
+sudo npm start
 
 /api/log
 /api/logs
-
 
 CREATE TABLE logs (
   id INT AUTO_INCREMENT PRIMARY KEY,
